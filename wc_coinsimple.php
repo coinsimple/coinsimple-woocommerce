@@ -59,7 +59,9 @@ function woocommerce_coinsimple_init() {
 			$body = file_get_contents('php://input');
 			$data = json_decode($body);
 
-			if (hash_hmac("sha256", $this->get_options("api_key"), $data->timestamp) != $data->hash) {
+			$business = new \CoinSimple\Business($this->get_option("business_id"), $this->get_option('api_key'));
+
+			if (!$business->validateHash($data->hash, $data->timestamp)) {
 				$this->debug(__METHOD__, 'invalid callback hash');
 				return;
 			}
