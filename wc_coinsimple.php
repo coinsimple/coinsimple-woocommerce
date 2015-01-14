@@ -3,7 +3,7 @@
 Plugin Name: WooCommerce CoinSimple payment gateway
 Plugin URI: https://coinsimple.com
 Description: CoinSimple plugin for woocommerce
-Version: 0.1
+Version: 1.0
 Author: CoinSimple
 Author URI: https://coinsimple.com
 */
