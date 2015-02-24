@@ -10,13 +10,8 @@ The CoinSimple WooCommerce plugin is an extension of the WooCommerce plugin for 
 
 ## Installation
 
-*Do not attempt to install this plugin through the WordPress Plugins dashboard. Use the following instructions, instead.*
-
 1. [Download a zip file of the plugin from this link](https://github.com/coinsimple/coinsimple-woocommerce/archive/v1.zip).
 2. Log in to your WordPress site as administrator and click on "Plugins"->"Add New"->"Upload"->"Choose file" and select the zip file you downloaded. Click on "Install Now" followed by "Activate Plugin".
-
-At this point the plugin is installed and activated but it still needs to be
-enabled and configured.
 
 ## Configuration
 
