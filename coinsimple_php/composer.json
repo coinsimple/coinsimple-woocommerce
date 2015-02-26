@@ -1,0 +1,18 @@
+{
+    "name": "coinsimple/coinsimple",
+    "description": "CoinSimple API wrapper",
+    "keywords": ["bitcoin", "coinsimple"],
+    "homepage": "https://coinsimple.com",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "files": [
+            "src/coinsimple.php"
+        ]
+    },
+    "require-dev": {
+        "codeception/codeception": "*",
+        "codeception/specify": "*",
+        "codeception/verify": "*"
+    }
+}
