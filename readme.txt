@@ -17,36 +17,32 @@ CoinSimple supports BitPay, Coinbase, GoCoin, hierarchical deterministic wallets
 
 == Installation ==
 
-**Requirements**
+**Prerequisites**
 
 1. **Installed WooCommerce plugin on your Wordpress site**. (Installation instructions can be found at [www.woothemes.com/woocommerce](http://www.woothemes.com/woocommerce/)).
 2. **A Business ID and API key from CoinSimple.com**. To find your information, go to your [CoinSimple.com](http://coinsimple.com) dashboard, select your business, and go to "Settings". You will find your *Business ID* and *API key* under "Busines Information" and "API Credentials".
 
 **Installation**
+
 1. [Download a zip file of the plugin from this link](https://github.com/coinsimple/coinsimple-woocommerce/archive/v1.zip).
+
 2. Log in to your WordPress site as administrator and click on "Plugins"->"Add New"->"Upload"->"Choose file" and select the zip file you downloaded. Click on "Install Now" followed by "Activate Plugin".
 
-**Configuration**
+3. Log into the WordPress dashboard and click "WooCommerce" and then "Settings".
 
-1. Log into the WordPress dashboard and click "WooCommerce" and then "Settings".
+4. In the screen that appears click on "Checkout" and then "CoinSimple".
 
-  ![Select "WooCommerce" then "Settings"](/assets/woocommerce-plugin-action-settings-store.png)
+5. Enter your CoinSimple.com business ID and API in the appropriate fields. Enter the URL of the page that your customers will be directed to after they make their payment.
 
-2. In the screen that appears click on "Checkout" and then "CoinSimple".
-
-  ![WooCommerce checkout settings page](/assets/woocommerce-plugin-screen-payments-coinsimple-select.png)
-
-3. Enter your CoinSimple.com business ID and API in the appropriate fields. Enter the URL of the page that your customers will be directed to after they make their payment.
-
-  ![Business ID, API key and callback URL](/assets/woocommerce-plugin-screen-payments-coinsimple-settings.png)
-
-4. Click "Save changes".
+6. Click "Save changes".
 
 
 == Screenshots ==
 
 1. Log into the WordPress dashboard and click "WooCommerce" and then "Settings".
+
 2. In the screen that appears click on "Checkout" and then "CoinSimple".
+
 3. Enter your CoinSimple.com business ID and API in the appropriate fields. Enter the URL of the page that your customers will be directed to after they make their payment.
 
 == Changelog ==
@@ -59,17 +55,17 @@ CoinSimple supports BitPay, Coinbase, GoCoin, hierarchical deterministic wallets
 - When a buyer selects "Bitcoin" as their payment method, an invoice is generated at CoinSimple.
 - After the buyer pays, CoinSimple directs the buyer to the page that you selected in your Settings above.
 
-=== CoinSimple Support ===
+== CoinSimple Support ==
 
 * If you are having a problem with this plugin, please use [this Github issues page](https://github.com/coinsimple/coinsimple-woocommerce/issues) to report your problem.
 
-=== WooCommerce Support ===
+== WooCommerce Support ==
 
 * [Homepage](http://www.woothemes.com/woocommerce/)
 * [Documentation](http://docs.woothemes.com)
 * [Support](https://support.woothemes.com)
 
-=== Troubleshooting ===
+== Troubleshooting ==
 
 * This plugin requires PHP 5.4 or higher to function correctly. Contact your webhosting provider or server administrator if you are unsure which version is installed on your web server.
 * Ensure a valid SSL certificate is installed on your server. Also ensure your root CA cert is updated. If your CA cert is not current, you will see curl SSL verification errors.
